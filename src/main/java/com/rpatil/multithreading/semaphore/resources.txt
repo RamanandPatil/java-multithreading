@@ -1,0 +1,10 @@
+Java API Doc: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/concurrent/Semaphore.html
+
+Other resources:
+https://www.baeldung.com/java-semaphore
+https://www.geeksforgeeks.org/semaphore-in-java/
+https://www.javatpoint.com/java-semaphore
+https://www.edureka.co/blog/semaphore-in-java/
+https://techvidvan.com/tutorials/semaphore-in-java/
+https://mkyong.com/java/java-semaphore-examples/
+https://mkyong.com/java/java-thread-mutex-and-semaphore-example/
