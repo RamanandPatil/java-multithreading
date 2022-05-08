@@ -1,0 +1,9 @@
+https://www.baeldung.com/java-deadlock-livelock
+     https://www.baeldung.com/java-dining-philoshophers
+     https://www.baeldung.com/java-synchronized
+
+
+
+
+https://medium.com/edureka/deadlock-in-java-5d1e4f0338d5
+https://techvidvan.com/tutorials/java-deadlock/
