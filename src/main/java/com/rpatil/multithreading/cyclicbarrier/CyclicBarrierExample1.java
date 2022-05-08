@@ -8,6 +8,7 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierExample1 {
     public static void main(String[] args) {
         List<Integer> numbers = new CopyOnWriteArrayList<>();
+
         CyclicBarrier barrier = new CyclicBarrier(2, new FinalTask("Final Thread", numbers));
 
         Thread t1 = new Thread(new Task1("Thread-1", numbers, barrier));
@@ -15,6 +16,11 @@ public class CyclicBarrierExample1 {
 
         t1.start();
         t2.start();
+
+        // We can re-use this barrier again in future if required, after calling reset.
+        barrier.reset();
+
+        // System.out.println("numbers: " + numbers);
 
         System.out.println("Main thread finished executing");
 
@@ -92,6 +98,8 @@ class FinalTask implements Runnable {
     @Override
     public void run() {
         int sum = 0;
+
+        System.out.println("Adding numbers: " + numbers);
 
         for (Integer number : numbers) {
             sum += number;
