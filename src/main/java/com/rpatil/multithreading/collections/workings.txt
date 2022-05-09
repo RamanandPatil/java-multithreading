@@ -1,0 +1,2 @@
+https://techmastertutorial.in/java-collection-internal-concurrent-hashmap.html
+https://techmastertutorial.in/java-collection-internal-linked-hashmap.html
