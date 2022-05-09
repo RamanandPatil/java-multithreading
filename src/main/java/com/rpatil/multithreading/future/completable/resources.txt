@@ -1,0 +1,2 @@
+https://xperti.io/blogs/completablefuture-in-java/?msclkid=27544875cef411ec8c353f0487772976
+https://www.callicoder.com/java-8-completablefuture-tutorial/?msclkid=27541bfccef411ec9c8d5ce8d054d081
