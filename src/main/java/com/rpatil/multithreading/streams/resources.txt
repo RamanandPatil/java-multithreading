@@ -1,0 +1,2 @@
+https://mkyong.com/java8/java-8-parallel-streams-examples/
+https://www.baeldung.com/java-when-to-use-parallel-stream

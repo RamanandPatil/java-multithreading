@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 public class SemaphoreExample {
     private static final Semaphore semaphore = new Semaphore(4);
 
-    public static final long TASK_SLEEP_TIME = 30_000;
+    public static final long TASK_SLEEP_TIME = 5_000;
     private static final boolean useSemaphorePermits = true;
 
     public static void main(String[] args) throws InterruptedException {

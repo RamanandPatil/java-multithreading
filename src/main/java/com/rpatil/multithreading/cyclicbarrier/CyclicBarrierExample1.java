@@ -22,7 +22,7 @@ public class CyclicBarrierExample1 {
 
         // System.out.println("numbers: " + numbers);
 
-        System.out.println("Main thread finished executing");
+        System.out.println("Sequencial thread finished executing");
 
     }
 
