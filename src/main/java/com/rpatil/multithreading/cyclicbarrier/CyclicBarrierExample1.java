@@ -22,7 +22,7 @@ public class CyclicBarrierExample1 {
 
         // System.out.println("numbers: " + numbers);
 
-        System.out.println("Sequencial thread finished executing");
+        System.out.println("Sequential thread finished executing");
 
     }
 
@@ -53,7 +53,7 @@ class Task1 implements Runnable {
         } catch (InterruptedException | BrokenBarrierException e) {
             e.printStackTrace();
         }
-        System.out.println(name + " has crossed the barrier");
+        System.out.println(name + " has crossed the barrier with the new numbers: " + numbers);
     }
 }
 
@@ -82,7 +82,7 @@ class Task2 implements Runnable {
         } catch (InterruptedException | BrokenBarrierException e) {
             e.printStackTrace();
         }
-        System.out.println(name + " has crossed the barrier");
+        System.out.println(name + " has crossed the barrier with the new numbers: " + numbers);
     }
 }
 
