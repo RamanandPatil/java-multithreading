@@ -37,7 +37,7 @@ public class AtomicSolution {
 
 class AtomicTask implements Runnable {
 
-    private AtomicInteger count = new AtomicInteger();
+    private final AtomicInteger count = new AtomicInteger();
 
     public int getCount() {
         return count.get();
